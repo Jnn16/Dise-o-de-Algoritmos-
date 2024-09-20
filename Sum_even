@@ -1,0 +1,15 @@
+
+arr_2=[[10,20,30,40],
+       [5,7,90,45],
+       [100,1000,11,12],
+       [6,16,27,29],]
+
+def sum_even_elements (array_2d:list[list]) int 
+    w=0
+    for row in array_2d:
+        for number in row:
+            if number%2 ==0:
+                w+= number 
+    return w
+
+print (sum_even_elements (arr_2))
